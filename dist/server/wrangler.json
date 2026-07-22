@@ -1,0 +1,24 @@
+{
+  "name": "xueying-wang-ai-profile",
+  "main": "index.js",
+  "compatibility_date": "2026-05-15",
+  "compatibility_flags": [
+    "nodejs_compat"
+  ],
+  "no_bundle": true,
+  "rules": [
+    {
+      "type": "ESModule",
+      "globs": [
+        "**/*.js",
+        "**/*.mjs"
+      ]
+    }
+  ],
+  "assets": {
+    "directory": "../client"
+  },
+  "observability": {
+    "enabled": true
+  }
+}

@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="王雪莹的 AI 产品、Agent、Skill 与内容工作流实践档案馆。" />
+    <meta name="theme-color" content="#f8faff" />
+    <title>王雪莹 / Xueying Wang · AI 产品实践档案馆</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css?v=feature-ref-20260721" />
+  </head>
+  <body>
+    <header class="topbar" data-header>
+      <a class="identity" href="#home" aria-label="返回首页">
+        <span class="avatar"><img src="assets/profile-avatar.jpg" alt="王雪莹" /></span>
+        <strong>王雪莹 <i>/</i> Xueying Wang</strong>
+        <span class="verified" title="已认证">●</span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav"><span></span><span></span><span></span><b class="sr-only">菜单</b></button>
+      <nav class="main-nav" id="main-nav" aria-label="主导航">
+        <a href="#about">关于我</a><a href="#products">AI 产品</a><a href="#skill">Skill</a>
+        <a href="#lab">Vibe Coding Lab</a><a href="#collaboration">服务与合作</a>
+        <a href="#notes">最近的笔记</a>
+      </nav>
+
+      <div class="header-actions">
+        <div class="contact-wrapper" id="contact">
+          <button class="contact-button" type="button" aria-haspopup="true" aria-expanded="false">
+            <img src="assets/wechat-icon.png" alt="" />
+            <span class="sr-only">微信</span>
+          </button>
+          <div class="contact-popover" role="dialog" aria-label="微信二维码" aria-hidden="true">
+            <div class="contact-card">
+              <div class="contact-visual"><img src="assets/wechat-qr.jpg" alt="微信二维码" /></div>
+              <strong>微信</strong>
+              <span>扫码添加微信</span>
+            </div>
+          </div>
+        </div>
+        <a class="contact-button xhs-contact-button" href="https://www.xiaohongshu.com/user/profile/643812aa000000001002a145" target="_blank" rel="noopener noreferrer" aria-label="打开小红书主页">
+          <img src="assets/xhs-service-icon.png" alt="" />
+        </a>
+      </div>
+    </header>
+
+    <main id="home">
+      <section class="hero panel" id="about">
+        <div class="hero-profile">
+          <div class="hero-intro">
+            <span class="hero-kicker">AI PRODUCT MANAGER · BUILDER</span>
+            <h1><span class="title-line">AI 产品经理的</span><span class="title-line accent">个人实践档案馆</span></h1>
+            <p class="hero-summary">记录我在 <strong>产品、Agent、Skill、内容工作流、AI 小项目</strong> 上的探索与思考。</p>
+          </div>
+
+          <div class="hero-about">
+            <h2>关于我</h2>
+            <p>8 年 B 端与 AI 产品经验，擅长把复杂业务问题拆成可落地的产品方案。</p>
+            <p>主导过多款产品从 0 到 1，覆盖社媒营销、AIGC、企业知识管理与流程自动化等场景。</p>
+            <div class="hero-tags" aria-label="个人方向">
+              <span>AI 产品</span><span>Agent</span><span>内容工作流</span><span>Vibe Coding</span>
+            </div>
+          </div>
+
+          <figure class="hero-portrait">
+            <div class="hero-portrait-image"><img src="assets/profile-avatar.jpg" alt="王雪莹的个人头像" /></div>
+            <figcaption><strong>王雪莹</strong><span>Xueying Wang · AI 产品经理</span></figcaption>
+          </figure>
+        </div>
+
+      </section>
+
+      <div class="dashboard-row top-row">
+        <section class="panel products" id="products">
+          <div class="section-head feature-head product-head">
+            <span class="feature-head-icon product-head-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M12 3 20 7.5v9L12 21l-8-4.5v-9L12 3Z"/><path d="m4.5 8 7.5 4 7.5-4"/><path d="M12 12v8"/></svg>
+            </span>
+            <h2><span>AI</span> 产品</h2>
+          </div>
+          <div class="product-grid">
+            <a class="product-card product-purple" href="https://my.feishu.cn/wiki/MxdXwlvxJiXcrykoYDNc2BCWnMk" target="_blank" rel="noopener noreferrer" aria-label="打开 AI 策略助手 Agent">
+              <span class="product-info">
+                <span class="app-icon">策</span>
+                <span class="product-copy">
+                  <h3>AI 策略助手</h3>
+                  <p>快速生成营销策略报告初稿。</p>
+                </span>
+              </span>
+              <span class="tags muted"><span>策略分析</span><span>报告生成</span></span>
+            </a>
+            <a class="product-card product-blue" href="https://my.feishu.cn/wiki/TNutwqWo2i0j0Wk3esqcI6mOnef" target="_blank" rel="noopener noreferrer" aria-label="打开 BF 生成 Agent">
+              <span class="product-info">
+                <span class="app-icon">BF</span>
+                <span class="product-copy">
+                  <h3>达人 Brief 生成</h3>
+                  <p>把策略转成达人可执行任务书。</p>
+                </span>
+              </span>
+              <span class="tags muted"><span>Brief生成</span><span>执行协同</span></span>
+            </a>
+            <a class="product-card product-lilac" href="https://my.feishu.cn/wiki/PG12wPASEiDEcAkwZiPcgi78nge" target="_blank" rel="noopener noreferrer" aria-label="打开内容生成 Agent">
+              <span class="product-info">
+                <span class="app-icon">文</span>
+                <span class="product-copy">
+                  <h3>内容生成</h3>
+                  <p>批量生成图文和短视频脚本。</p>
+                </span>
+              </span>
+              <span class="tags muted"><span>批量创作</span><span>脚本生成</span></span>
+            </a>
+            <a class="product-card product-indigo" href="https://my.feishu.cn/wiki/ZmfWw6DgyilDbBkk66ucCSM7nJg" target="_blank" rel="noopener noreferrer" aria-label="打开结案报告 Agent">
+              <span class="product-info">
+                <span class="app-icon">结</span>
+                <span class="product-copy">
+                  <h3>结案报告</h3>
+                  <p>自动沉淀项目结果与复盘洞察。</p>
+                </span>
+              </span>
+              <span class="tags muted"><span>项目复盘</span><span>效果归因</span></span>
+            </a>
+          </div>
+        </section>
+
+        <div class="top-side">
+          <section class="panel templates" id="skill">
+            <div class="section-head feature-head">
+              <span class="feature-head-icon skill-head-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M12 2.8 14.5 9.5 21.2 12 14.5 14.5 12 21.2 9.5 14.5 2.8 12 9.5 9.5 12 2.8Z"/></svg>
+              </span>
+              <h2>Skill</h2>
+            </div>
+            <div class="skill-grid">
+              <a class="skill-card" href="https://github.com/xueyingwang0613/xj-xiaohongshu-public-profile-reader/tree/main" target="_blank" rel="noopener noreferrer" aria-label="在 GitHub 查看小红书个人主页读取器">
+                <span class="skill-mark xhs" aria-hidden="true">书</span>
+                <span class="skill-copy">
+                  <strong>小红书个人主页读取器</strong>
+                  <span>读取小红书个人主页，把网页展示信息整理成结构化数据。</span>
+                </span>
+                <span class="skill-arrow" aria-hidden="true">↗</span>
+              </a>
+              <a class="skill-card" href="https://github.com/xueyingwang0613/wxy/tree/master/skills/generate-work-review" target="_blank" rel="noopener noreferrer" aria-label="在 GitHub 查看 AI 效率复盘清醒剂">
+                <span class="skill-mark review" aria-hidden="true">AI</span>
+                <span class="skill-copy">
+                  <strong>AI 效率复盘清醒剂</strong>
+                  <span>复盘用 AI 每日、每周或每个项目做了什么、效率、卡点与可提升点，并给出锐评意见。</span>
+                </span>
+                <span class="skill-arrow" aria-hidden="true">↗</span>
+              </a>
+            </div>
+          </section>
+
+          <section class="panel lab" id="lab">
+            <div class="section-head feature-head">
+              <span class="feature-head-icon lab-head-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="m8 8-4 4 4 4"/><path d="m16 8 4 4-4 4"/><path d="m14 5-4 14"/></svg>
+              </span>
+              <h2>Vibe Coding Lab</h2>
+            </div>
+            <div class="lab-grid">
+              <a href="https://www.xiaohongshu.com/explore/6a472ebe0000000006032d48?xsec_token=AB6b9Z1u-YJWndZBr0p7MZHz7MYc0oECTQdKqxgA72XsM=&amp;xsec_source=pc_user" target="_blank" rel="noopener noreferrer" aria-label="在小红书查看可触摸的云">
+                <span class="lab-icon coral">☁</span>
+                <b>可触摸的云<small>AI交互</small></b>
+              </a>
+            </div>
+          </section>
+        </div>
+      </div>
+
+      <div class="dashboard-row middle-row service-row">
+        <section class="panel collaboration service-section" id="collaboration">
+          <div class="service-intro">
+            <h2>服务与合作</h2>
+            <p>我将创意、内容与 AI 能力结合，为品牌和团队提供<br/>从策略到落地的一站式支持，助力业务增长与效能提升。</p>
+            <div class="service-illustration" aria-hidden="true">
+              <span class="service-blob one"></span>
+              <span class="service-blob two"></span>
+              <span class="service-paper">
+                <i></i><i></i><b></b><b></b><b></b>
+              </span>
+              <span class="service-bubble"><i></i><i></i><i></i></span>
+              <span class="service-dots"></span>
+            </div>
+          </div>
+          <div class="service-grid">
+            <a class="service-card service-coral" href="#contact" data-contact-trigger aria-label="查看小红书营销合作联系方式">
+              <span class="service-icon" aria-hidden="true">
+                <img src="assets/xhs-service-icon.png" alt="" />
+              </span>
+              <span class="service-copy">
+                <strong>小红书营销</strong>
+                <span class="service-desc">从策略到内容，帮助品牌做好小红书营销。</span>
+                <span class="service-tags"><span>账号定位</span><span>选题策划</span><span>内容生产</span><span>项目复盘</span></span>
+              </span>
+            </a>
+            <div class="service-card service-purple" href="#contact" data-contact-trigger role="button" tabindex="0" aria-label="查看 AI 海报制作合作联系方式">
+              <button class="service-detail-button" type="button" data-poster-detail aria-haspopup="dialog" aria-controls="poster-modal">详情</button>
+              <span class="service-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M5 5h14a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2Z"/><path d="m7 15 3-3 3 3 2-2 3 3"/><circle cx="9" cy="9" r="1.5"/></svg>
+              </span>
+              <span class="service-copy">
+                <strong>AI 海报制作</strong>
+                <span class="service-desc">快速完成兼顾效果与效率的视觉设计。</span>
+                <span class="service-tags"><span>活动海报</span><span>宣传长图</span><span>小红书封面</span><span>电商视觉</span></span>
+              </span>
+            </div>
+            <a class="service-card service-teal" href="#contact" data-contact-trigger aria-label="查看 AI 培训与分享合作联系方式">
+              <span class="service-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="m4 8 8-4 8 4-8 4-8-4Z"/><path d="M7 10v5c0 1.4 2.2 3 5 3s5-1.6 5-3v-5"/><path d="M20 9v5"/></svg>
+              </span>
+              <span class="service-copy">
+                <strong>AI 培训与分享</strong>
+                <span class="service-desc">结合真实业务场景，帮助团队真正用好 AI。</span>
+                <span class="service-tags"><span>企业培训</span><span>主题分享</span><span>工具实操</span><span>工作流搭建</span></span>
+              </span>
+            </a>
+            <a class="service-card service-blue" href="#contact" data-contact-trigger aria-label="查看 AI 产品与企业落地合作联系方式">
+              <span class="service-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="m12 3 8 4.5v9L12 21l-8-4.5v-9L12 3Z"/><path d="m4.5 8 7.5 4 7.5-4"/><path d="M12 12v8.5"/></svg>
+              </span>
+              <span class="service-copy">
+                <strong>AI 产品与企业落地</strong>
+                <span class="service-desc">把复杂业务需求拆解成可落地的 AI 产品方案。</span>
+                <span class="service-tags"><span>场景梳理</span><span>Agent 设计</span><span>流程自动化</span><span>产品咨询</span></span>
+              </span>
+            </a>
+          </div>
+        </section>
+      </div>
+
+      <section class="panel notes" id="notes">
+        <div class="section-head"><h2>最近的笔记</h2></div>
+        <div class="notes-grid">
+          <a class="note-card" href="https://my.feishu.cn/wiki/NNb6w6z7viHBvRk2CBucIRusnr3" target="_blank" rel="noopener noreferrer" aria-label="打开笔记：把 AI 用进营销业务，最难的不是生成内容">
+            <div class="note-cover cover-one"><i></i><i></i><b>AI</b></div>
+            <div class="note-copy"><span>AI营销</span><h3>把 AI 用进营销业务，最难的不是生成内容</h3><footer><time>飞书文档</time><em>↗</em></footer></div>
+          </a>
+          <a class="note-card" href="https://my.feishu.cn/wiki/BgfXwwbKLiOOFzkLMhsclmHDn5b" target="_blank" rel="noopener noreferrer" aria-label="打开笔记：小红书-图文内容创作（XJCreate Skill）">
+            <div class="note-cover cover-code"><code><b>XJCreate</b><br/>skill.run(topic);<br/>publish(note);</code></div>
+            <div class="note-copy"><span>skill</span><h3>小红书-图文内容创作（XJCreate Skill）</h3><footer><time>飞书文档</time><em>↗</em></footer></div>
+          </a>
+          <a class="note-card" href="https://my.feishu.cn/wiki/STv2w0nUqiPsmtkPJYvcWau9nIh" target="_blank" rel="noopener noreferrer" aria-label="打开笔记：小巨AI碎片内容沉淀">
+            <div class="note-cover cover-four"><i></i><i></i><b>AI</b></div>
+            <div class="note-copy"><span>AI思考</span><h3>小巨AI碎片内容沉淀</h3><footer><time>飞书文档</time><em>↗</em></footer></div>
+          </a>
+        </div>
+      </section>
+    </main>
+    <div class="poster-modal" id="poster-modal" role="dialog" aria-modal="true" aria-label="AI 海报制作详情" aria-hidden="true">
+      <button class="poster-modal-backdrop" type="button" data-poster-close aria-label="关闭详情"></button>
+      <div class="poster-modal-panel">
+        <button class="poster-modal-close" type="button" data-poster-close aria-label="关闭详情">×</button>
+        <img src="assets/ai-poster-detail.jpg" alt="AI 海报制作服务详情" />
+      </div>
+    </div>
+    <script src="script.js?v=nav-align-20260721"></script>
+  </body>
+</html>
